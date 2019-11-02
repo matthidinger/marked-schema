@@ -4,7 +4,7 @@
   "description": "Create markdown documentations from a JSON-schema file",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node bin/marked-schema ./test/adaptive-card.json ./test/toc.yml -r AdaptiveCard",
+    "test": "node bin/marked-schema ./test/terminal.json ./test/toc.yml",
     "test-with-examples": "node bin/marked-schema ./test/adaptive-card.json ./test/toc.yml -r AdaptiveCard -e C:/Dev/Projects/AdaptiveCards/samples/v1.0"
   },
   "keywords": [
