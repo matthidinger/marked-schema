@@ -7,6 +7,10 @@
     "test": "node bin/marked-schema ./test/adaptive-card.json ./test/toc.yml -r AdaptiveCard",
     "test-with-examples": "node bin/marked-schema ./test/adaptive-card.json ./test/toc.yml -r AdaptiveCard -e C:/Dev/Projects/AdaptiveCards/samples/v1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthidinger/marked-schema.git"
+  },
   "keywords": [
     "json-schema"
   ],
